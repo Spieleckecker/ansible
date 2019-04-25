@@ -3,4 +3,4 @@
 - hosts: all
   gather_facts: false
   tasks:
-    - shell: somescript.sh >> somelog.txt
+    - shell: python piCalc.py
