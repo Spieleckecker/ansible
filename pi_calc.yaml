@@ -6,3 +6,4 @@
     - shell: python piCalc.py
       args:
         chdir: /var/lib/awx
+    - pause: seconds=190
