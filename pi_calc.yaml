@@ -4,3 +4,5 @@
   gather_facts: false
   tasks:
     - shell: python piCalc.py
+      args:
+        chdir: /var/lib/awx
